@@ -1,0 +1,27 @@
+{
+  "name": "grunt-cloudflarev4",
+  "version": "0.0.1",
+  "description": "Grunt tasks for managing Cloudflare DNS",
+  "main": "tasks/cloudflare.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metatavu/grunt-cloudflarev4.git"
+  },
+  "keywords": [
+    "grunt",
+    "cloudflare"
+  ],
+  "author": "Metatavu Oy <devs@metatavu.fi>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Metatavu/grunt-cloudflarev4/issues"
+  },
+  "homepage": "https://github.com/Metatavu/grunt-cloudflarev4#readme",
+  "dependencies": {
+    "cloudflare": "^1.0.4",
+    "grunt": "^1.0.1"
+  }
+}
